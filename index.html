@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMDb</title>
 </head>
+
 <body>
-    
+    <table bgcolor="#000000" width="100%" height="40px">
+        <tr>
+            <td>
+                <button>☰</button>
+            </td>
+            <td>
+                <img src="icons/icon-imdb.png" alt="IMDb icon">
+            </td>
+            <td>
+                <select name="sort" id="sort">
+                    <option value="all">All</option>
+                    <option value="titles"> Titles</option>
+                    <option value="shows">TV Shows</option>
+                    <option value="celebs">Celebs</option>
+                    <option value="companies">Companies</option>
+                    <option value="keywords">Keywords</option>
+                </select>
+                <input type="text" name="search" id="search" placeholder="Search IMDb" >
+                <button value="search">🔍 </button>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <button>
+                    <a href="./pages/signin.html"> Sign In </a>
+                </button>
+                <select name="language" id="lang">
+                    <optgroup name="Full Support" label="Full Support">
+                        <option value="en">English</option>
+                    </optgroup>
+                    <optgroup name="Partial Support" label="Partial Support">
+                        <option value="">Hindi</option>
+                        <option value="">Chinese</option>
+                        <option value="">Japanese</option>
+                        <option value="">Portuguese</option>
+                    </optgroup>
+                </select>
+            </td>
+        </tr>
+    </table>
 </body>
+
 </html>
