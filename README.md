@@ -10,6 +10,7 @@ _<u>Reason</u>_ - i shouldn't even use basic CSS like padding and margin propert
 1. home screen
 2. login screen
 3. contact screen
+4. survey page
 
 * Now i won't make it look anywhere near IMDb but I will take inspiration from it.
 * I have less than 5 hours to do this and I have no idea what to do/ no mood to do it either.
